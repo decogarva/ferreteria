@@ -40,7 +40,7 @@
 <script>
   // ====== CONFIGURACIÓN ======
   // ID de la planilla: está en la URL, entre /d/ y /edit
-  const SHEET_ID = "1vRFh4JZ6WFkq6KDnthksbS8veHEz-_YITd4SlwT6zpcecWT6CCXUo8c9VSOXXmfhfJugLwtKpbguHII";
+  const SHEET_ID = "1HVTgg5guKhi6BIQMHubTBBeltzm6Cp5enBaddzNuKRw";
   // Nombre de la pestaña (hoja) con los artículos
   const SHEET_NAME = "Hoja1";
   // Columnas esperadas en la primera fila:
@@ -48,7 +48,7 @@
   // ===========================
 
   const CSV_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(SHEET_NAME)}`;
- alert CSV_URL
+ alert( CSV_URL)
   const $ = id => document.getElementById(id);
   let items = [];
 
